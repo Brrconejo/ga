@@ -665,31 +665,6 @@ var document = doc[Math.floor(Math.random() * doc.length)]
 const buttons = [
 {buttonId: (action == 'add' ? '#welcomegc' : '#byegc'), buttonText: {displayText: (action == 'add' ? '💫 𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾 💫' : '☠ 𝙰𝙳𝙸𝙾𝚂 ☠')}, type: 1},
 {buttonId: `#menu`, buttonText: {displayText: '💟 𝙼𝙴𝙽𝚄 💟'}, type: 1}, ]
-let buttonMessage = {
-document: imagen3, 
-fileName: `ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩`, 
-mimetype: `application/${document}`,
-jpegThumbnail: imagen3,
-caption: text,
-fileLength: "99999999999999",
-mentions: [user],
-footer: groupMetadata.subject,
-buttons: buttons,
-headerType: 4,   
-contextInfo: {
-'forwardingScore': 200,
-'isForwarded': true,
-"mentionedJid": [user],
-"externalAdReply": {
-"showAdAttribution": false,
-"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
-"mediaType": 2, 
-"previewType": "VIDEO",
-"thumbnail": apii.data,
-"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
-"sourceUrl": 'https://www.pornhub.com' }}} 
-this.sendMessage(id, buttonMessage, fake)                          
-}}}
             break
         case 'promote':
         case 'daradmin':
