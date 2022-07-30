@@ -682,6 +682,12 @@ contextInfo: {
 "mentionedJid": [user],
 "externalAdReply": {
 "showAdAttribution": false,
+"title": `𝚃𝚄𝚃𝙾𝚁𝙸𝙰𝙻 𝙳𝙴 𝙸𝙽𝚂𝚃𝙰𝙻𝙰𝙲𝙸𝙾𝙽`,
+"mediaType": 2, 
+"previewType": "VIDEO",
+"thumbnail": apii.data,
+"mediaUrl": 'https://youtu.be/eC9TfKICpcY',
+"sourceUrl": 'https://www.pornhub.com' }}} 
 this.sendMessage(id, buttonMessage, fake)                          
 }}}
             break
